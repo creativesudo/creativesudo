@@ -47,15 +47,15 @@ hr {
 
 <div class="bgimg">
   <div class="topleft">
-    <p>Logo</p>
+    <p>Creative Sudo</p>
   </div>
   <div class="middle">
     <h1>COMING SOON</h1>
     <hr>
-    <p id="demo" style="font-size:30px"></p>
+    <p id="countdown" style="font-size:30px"></p>
   </div>
   <div class="bottomleft">
-    <p>Some text</p>
+    <p>Creativity Can't be hold!</p>
   </div>
 </div>
 
@@ -85,7 +85,7 @@ var countdownfunction = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(countdownfunction);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("countdown").innerHTML = "EXPIRED";
   }
 }, 1000);
 </script>
